@@ -20,7 +20,9 @@ const forecast = (latitude, longitude, callback) => {
           response.body.current.temperature +
           " degrees out. It feels like " +
           response.body.current.feelslike +
-          " degrees out."
+          " degrees out.Precipitation is " +
+          response.body.current.precip +
+          "."
       );
     }
   });
