@@ -39,7 +39,7 @@ app.get("/about", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    helpText: "text",
+    helpText: "Enter your city name to get the information about the weather.",
     title: "Help",
     name: "Sohan",
   });
